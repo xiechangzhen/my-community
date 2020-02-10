@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+
+        <!--<commentGenerator>-->
+            <!--<property name="suppressDate" value="true"/>-->
+            <!--&lt;!&ndash; 是否去除自动生成的注释 true：是 ： false:否 &ndash;&gt;-->
+            <!--<property name="suppressAllComments" value="true"/>-->
+        <!--</commentGenerator>-->
+        <!--分页插件配置-->
+        <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"></plugin>
+
+        <!--数据库链接URL，用户名、密码;com.mysql.jdbc.Driver; 6.x以上 ：com.mysql.cj.jdbc.Driver-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/mp?serverTimezone=CTT&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai"
+                        userId="root"
+                        password="root">
+            <!-- 在mapper中可以生成通过primarykey进行增删改查的方法-->
+            <property name="useInformationSchema" value="true"/>
+        </jdbcConnection>
+
+        <!--connectionURL="jdbc:mysql://127.0.0.1:3306/mp?serverTimezone=GMT%2B8"-->
+
+        <!-- 非必需，类型处理器，在数据库类型和java类型之间的转换控制-->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!-- 生成实体的包名和位置，entity-->
+        <javaModelGenerator targetPackage="life.showlin.community.mycommunity.model" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!-- 生成映射文件的包名和位置，mapper*.xml文件-->
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!-- 生成DAO的包名和位置 mapper-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="life.showlin.community.mycommunity.mapper"
+                             targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!-- 要生成的表 tableName是数据库中的表名或视图名 domainObjectName是实体类名-->
+        <table tableName="tuser" domainObjectName="Tuser"></table>
+        <table tableName="question" domainObjectName="Question"></table>
+        <table tableName="comment" domainObjectName="Comment"></table>
+        <table tableName="notification" domainObjectName="Notification"></table>
+
+        <!--  <table tableName="comment" domainObjectName="Comment"></table>
+          <table tableName="nav" domainObjectName="Nav"></table>
+          <table tableName="ad" domainObjectName="Ad"></table>-->
+    </context>
+</generatorConfiguration>

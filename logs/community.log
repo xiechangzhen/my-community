@@ -1,0 +1,261 @@
+2020-02-10 10:57:37.211  INFO 9544 --- [restartedMain] l.s.c.m.MyCommunityApplication           : Starting MyCommunityApplication on WIN-DA038N7K3TQ with PID 9544 (D:\idea\workspace\my-community\target\classes started by Administrator in D:\idea\workspace\my-community)
+2020-02-10 10:57:37.214  INFO 9544 --- [restartedMain] l.s.c.m.MyCommunityApplication           : No active profile set, falling back to default profiles: default
+2020-02-10 10:57:37.265  INFO 9544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-10 10:57:37.265  INFO 9544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-10 10:57:38.699  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-02-10 10:57:38.723  INFO 9544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-10 10:57:38.723  INFO 9544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-10 10:57:38.830  INFO 9544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-10 10:57:38.830  INFO 9544 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1564 ms
+2020-02-10 10:57:39.454  INFO 9544 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-10 10:57:39.526  INFO 9544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-10 10:57:39.893  INFO 9544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-10 10:57:39.942  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-02-10 10:57:39.945  INFO 9544 --- [restartedMain] l.s.c.m.MyCommunityApplication           : Started MyCommunityApplication in 3.154 seconds (JVM running for 4.848)
+2020-02-10 10:58:18.709  INFO 9544 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-10 10:58:18.710  INFO 9544 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-10 10:58:18.716  INFO 9544 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-02-10 10:58:18.773  INFO 9544 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-10 10:58:18.774  WARN 9544 --- [http-nio-8887-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-10 10:58:18.889  INFO 9544 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-10 10:59:24.847  INFO 9544 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-10 10:59:24.847  INFO 9544 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-02-10 10:59:24.853  INFO 9544 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-02-10 10:59:25.308  INFO 9544 --- [restartedMain] l.s.c.m.MyCommunityApplication           : Starting MyCommunityApplication on WIN-DA038N7K3TQ with PID 9544 (D:\idea\workspace\my-community\target\classes started by Administrator in D:\idea\workspace\my-community)
+2020-02-10 10:59:25.308  INFO 9544 --- [restartedMain] l.s.c.m.MyCommunityApplication           : No active profile set, falling back to default profiles: default
+2020-02-10 10:59:25.648  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-02-10 10:59:25.649  INFO 9544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-10 10:59:25.649  INFO 9544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-10 10:59:25.678  INFO 9544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-10 10:59:25.678  INFO 9544 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 368 ms
+2020-02-10 10:59:25.927  INFO 9544 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-10 10:59:25.946  INFO 9544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-10 10:59:26.084  INFO 9544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-10 10:59:26.102  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-02-10 10:59:26.102  INFO 9544 --- [restartedMain] l.s.c.m.MyCommunityApplication           : Started MyCommunityApplication in 0.82 seconds (JVM running for 111.005)
+2020-02-10 10:59:26.105  INFO 9544 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-02-10 10:59:31.880  INFO 9544 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-10 10:59:32.321  INFO 9544 --- [restartedMain] l.s.c.m.MyCommunityApplication           : Starting MyCommunityApplication on WIN-DA038N7K3TQ with PID 9544 (D:\idea\workspace\my-community\target\classes started by Administrator in D:\idea\workspace\my-community)
+2020-02-10 10:59:32.321  INFO 9544 --- [restartedMain] l.s.c.m.MyCommunityApplication           : No active profile set, falling back to default profiles: default
+2020-02-10 10:59:32.640  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-02-10 10:59:32.641  INFO 9544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-10 10:59:32.641  INFO 9544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-10 10:59:32.661  INFO 9544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-10 10:59:32.661  INFO 9544 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 338 ms
+2020-02-10 10:59:32.815  INFO 9544 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-10 10:59:32.830  INFO 9544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-10 10:59:32.953  INFO 9544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-10 10:59:32.968  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-02-10 10:59:32.969  INFO 9544 --- [restartedMain] l.s.c.m.MyCommunityApplication           : Started MyCommunityApplication in 0.67 seconds (JVM running for 117.87)
+2020-02-10 10:59:32.970  INFO 9544 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-02-10 10:59:44.068  INFO 7984 --- [restartedMain] l.s.c.m.MyCommunityApplication           : Starting MyCommunityApplication on WIN-DA038N7K3TQ with PID 7984 (D:\idea\workspace\my-community\target\classes started by Administrator in D:\idea\workspace\my-community)
+2020-02-10 10:59:44.070  INFO 7984 --- [restartedMain] l.s.c.m.MyCommunityApplication           : No active profile set, falling back to default profiles: default
+2020-02-10 10:59:44.113  INFO 7984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-10 10:59:44.113  INFO 7984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-10 10:59:45.256  INFO 7984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-02-10 10:59:45.273  INFO 7984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-10 10:59:45.273  INFO 7984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-10 10:59:45.362  INFO 7984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-10 10:59:45.362  INFO 7984 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1249 ms
+2020-02-10 10:59:45.884  INFO 7984 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-10 10:59:45.944  INFO 7984 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-10 10:59:46.266  INFO 7984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-10 10:59:46.307  INFO 7984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-02-10 10:59:46.309  INFO 7984 --- [restartedMain] l.s.c.m.MyCommunityApplication           : Started MyCommunityApplication in 2.557 seconds (JVM running for 3.595)
+2020-02-10 11:00:18.626  INFO 7984 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-10 11:00:18.626  INFO 7984 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-10 11:00:18.630  INFO 7984 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-02-10 11:00:18.677  INFO 7984 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-10 11:00:18.679  WARN 7984 --- [http-nio-8887-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-10 11:00:18.767  INFO 7984 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-10 11:00:18.774 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 11:00:18.796 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 11:00:18.811 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 11:00:18.828 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.countBySearch                : ==>  Preparing: SELECT count(*) FROM question 
+2020-02-10 11:00:18.828 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.countBySearch                : ==> Parameters: 
+2020-02-10 11:00:18.830 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.countBySearch                : <==      Total: 1
+2020-02-10 11:00:18.831 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectBySearch               : ==>  Preparing: SELECT * FROM question order by gmt_create desc limit ? ,? 
+2020-02-10 11:00:18.831 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectBySearch               : ==> Parameters: 10(Integer), 5(Integer)
+2020-02-10 11:00:18.834 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectBySearch               : <==      Total: 5
+2020-02-10 11:00:18.834 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser where id = ? 
+2020-02-10 11:00:18.835 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==> Parameters: 1(Long)
+2020-02-10 11:00:18.836 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 11:00:18.841 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser where id = ? 
+2020-02-10 11:00:18.841 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==> Parameters: 1(Long)
+2020-02-10 11:00:18.842 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 11:00:18.842 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser where id = ? 
+2020-02-10 11:00:18.843 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==> Parameters: 1(Long)
+2020-02-10 11:00:18.844 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 11:00:18.844 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser where id = ? 
+2020-02-10 11:00:18.845 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==> Parameters: 1(Long)
+2020-02-10 11:00:18.846 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 11:00:18.846 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser where id = ? 
+2020-02-10 11:00:18.846 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==> Parameters: 1(Long)
+2020-02-10 11:00:18.847 DEBUG 7984 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 11:00:19.145 DEBUG 7984 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 11:00:19.145 DEBUG 7984 --- [http-nio-8887-exec-4] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 11:00:19.145 DEBUG 7984 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 11:00:19.146 DEBUG 7984 --- [http-nio-8887-exec-4] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 11:00:19.146 DEBUG 7984 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 11:00:19.146 DEBUG 7984 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 11:00:19.146 DEBUG 7984 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 11:00:19.146 DEBUG 7984 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 11:00:19.146 DEBUG 7984 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 11:00:19.147 DEBUG 7984 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 11:00:19.148 DEBUG 7984 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 11:00:19.148 DEBUG 7984 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 11:00:19.149 DEBUG 7984 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 11:00:19.148 DEBUG 7984 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 11:00:19.148 DEBUG 7984 --- [http-nio-8887-exec-4] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 11:00:19.173 DEBUG 7984 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 11:00:19.173 DEBUG 7984 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 11:00:19.174 DEBUG 7984 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 11:00:19.205 DEBUG 7984 --- [http-nio-8887-exec-8] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 11:00:19.205 DEBUG 7984 --- [http-nio-8887-exec-8] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 11:00:19.206 DEBUG 7984 --- [http-nio-8887-exec-8] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 11:00:19.234 DEBUG 7984 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 11:00:19.234 DEBUG 7984 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 11:00:19.235 DEBUG 7984 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 11:00:19.255 DEBUG 7984 --- [http-nio-8887-exec-10] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 11:00:19.256 DEBUG 7984 --- [http-nio-8887-exec-10] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 11:00:19.257 DEBUG 7984 --- [http-nio-8887-exec-10] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:41.468  INFO 8024 --- [restartedMain] l.s.c.m.MyCommunityApplication           : Starting MyCommunityApplication on WIN-DA038N7K3TQ with PID 8024 (D:\idea\workspace\my-community\target\classes started by Administrator in D:\idea\workspace\my-community)
+2020-02-10 12:10:41.473  INFO 8024 --- [restartedMain] l.s.c.m.MyCommunityApplication           : No active profile set, falling back to default profiles: default
+2020-02-10 12:10:41.650  INFO 8024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-10 12:10:41.651  INFO 8024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-10 12:10:43.529  INFO 8024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-02-10 12:10:43.551  INFO 8024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-10 12:10:43.551  INFO 8024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-02-10 12:10:43.655  INFO 8024 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-10 12:10:43.655  INFO 8024 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2004 ms
+2020-02-10 12:10:44.193  INFO 8024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-10 12:10:44.263  INFO 8024 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-10 12:10:44.575  INFO 8024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-10 12:10:44.679  INFO 8024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-02-10 12:10:44.681  INFO 8024 --- [restartedMain] l.s.c.m.MyCommunityApplication           : Started MyCommunityApplication in 4.034 seconds (JVM running for 5.355)
+2020-02-10 12:10:47.848  INFO 8024 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-10 12:10:47.848  INFO 8024 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-10 12:10:47.855  INFO 8024 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-02-10 12:10:47.913  INFO 8024 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-10 12:10:47.916  WARN 8024 --- [http-nio-8887-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-10 12:10:48.048  INFO 8024 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-10 12:10:48.056 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:48.079 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:48.096 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:48.118 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.countBySearch                : ==>  Preparing: SELECT count(*) FROM question 
+2020-02-10 12:10:48.118 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.countBySearch                : ==> Parameters: 
+2020-02-10 12:10:48.121 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.countBySearch                : <==      Total: 1
+2020-02-10 12:10:48.122 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectBySearch               : ==>  Preparing: SELECT * FROM question order by gmt_create desc limit ? ,? 
+2020-02-10 12:10:48.122 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectBySearch               : ==> Parameters: 10(Integer), 5(Integer)
+2020-02-10 12:10:48.126 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectBySearch               : <==      Total: 5
+2020-02-10 12:10:48.126 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser where id = ? 
+2020-02-10 12:10:48.126 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==> Parameters: 1(Long)
+2020-02-10 12:10:48.127 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 12:10:48.132 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser where id = ? 
+2020-02-10 12:10:48.132 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==> Parameters: 1(Long)
+2020-02-10 12:10:48.133 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 12:10:48.133 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser where id = ? 
+2020-02-10 12:10:48.134 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==> Parameters: 1(Long)
+2020-02-10 12:10:48.134 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 12:10:48.134 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser where id = ? 
+2020-02-10 12:10:48.134 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==> Parameters: 1(Long)
+2020-02-10 12:10:48.135 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 12:10:48.136 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser where id = ? 
+2020-02-10 12:10:48.136 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==> Parameters: 1(Long)
+2020-02-10 12:10:48.137 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 12:10:48.477 DEBUG 8024 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:48.477 DEBUG 8024 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:48.477 DEBUG 8024 --- [http-nio-8887-exec-4] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:48.477 DEBUG 8024 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:48.477 DEBUG 8024 --- [http-nio-8887-exec-4] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:48.477 DEBUG 8024 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:48.477 DEBUG 8024 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:48.477 DEBUG 8024 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:48.478 DEBUG 8024 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:48.478 DEBUG 8024 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:48.479 DEBUG 8024 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:48.479 DEBUG 8024 --- [http-nio-8887-exec-4] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:48.479 DEBUG 8024 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:48.479 DEBUG 8024 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:48.479 DEBUG 8024 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:48.524 DEBUG 8024 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:48.525 DEBUG 8024 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:48.525 DEBUG 8024 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:48.531 DEBUG 8024 --- [http-nio-8887-exec-8] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:48.531 DEBUG 8024 --- [http-nio-8887-exec-8] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:48.532 DEBUG 8024 --- [http-nio-8887-exec-8] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:48.563 DEBUG 8024 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:48.564 DEBUG 8024 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:48.566 DEBUG 8024 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:48.587 DEBUG 8024 --- [http-nio-8887-exec-10] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:48.589 DEBUG 8024 --- [http-nio-8887-exec-10] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:48.591 DEBUG 8024 --- [http-nio-8887-exec-10] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.077 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.077 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.078 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.081 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectByPrimaryKey           : ==>  Preparing: select id, title, gmt_create, gmt_modified, creator, comment_count, view_count, like_count, tag , description from question where id = ? 
+2020-02-10 12:10:50.082 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectByPrimaryKey           : ==> Parameters: 12(Long)
+2020-02-10 12:10:50.083 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 12:10:50.083 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser where id = ? 
+2020-02-10 12:10:50.083 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : ==> Parameters: 1(Long)
+2020-02-10 12:10:50.084 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.T.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 12:10:50.085 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectRelated                : ==>  Preparing: SELECT * FROM question WHERE id != ? and tag regexp ? 
+2020-02-10 12:10:50.086 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectRelated                : ==> Parameters: 12(Long), java，编程(String)
+2020-02-10 12:10:50.087 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectRelated                : <==      Total: 0
+2020-02-10 12:10:50.095 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.CommentMapper.selectByExample  : ==>  Preparing: select id, parent_id, type, commentator, gmt_create, gmt_modified, like_count, content, comment_count from comment WHERE ( parent_id = ? and type = ? ) order by gmt_create desc 
+2020-02-10 12:10:50.096 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.CommentMapper.selectByExample  : ==> Parameters: 12(Long), 1(Integer)
+2020-02-10 12:10:50.099 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.CommentMapper.selectByExample  : <==      Total: 0
+2020-02-10 12:10:50.099 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectByPrimaryKey           : ==>  Preparing: select id, title, gmt_create, gmt_modified, creator, comment_count, view_count, like_count, tag , description from question where id = ? 
+2020-02-10 12:10:50.099 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectByPrimaryKey           : ==> Parameters: 12(Long)
+2020-02-10 12:10:50.100 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.Q.selectByPrimaryKey           : <==      Total: 1
+2020-02-10 12:10:50.100 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.QuestionExMapper.addViewCount  : ==>  Preparing: update question SET view_count = view_count + 1 where id = ? 
+2020-02-10 12:10:50.100 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.QuestionExMapper.addViewCount  : ==> Parameters: 12(Long)
+2020-02-10 12:10:50.104 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.QuestionExMapper.addViewCount  : <==    Updates: 1
+2020-02-10 12:10:50.137 DEBUG 8024 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.137 DEBUG 8024 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.138 DEBUG 8024 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.142 DEBUG 8024 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.143 DEBUG 8024 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.144 DEBUG 8024 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.145 DEBUG 8024 --- [http-nio-8887-exec-4] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.145 DEBUG 8024 --- [http-nio-8887-exec-4] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.145 DEBUG 8024 --- [http-nio-8887-exec-4] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.146 DEBUG 8024 --- [http-nio-8887-exec-8] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.146 DEBUG 8024 --- [http-nio-8887-exec-8] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.148 DEBUG 8024 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.148 DEBUG 8024 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.149 DEBUG 8024 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.151 DEBUG 8024 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.151 DEBUG 8024 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.149 DEBUG 8024 --- [http-nio-8887-exec-8] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.151 DEBUG 8024 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.151 DEBUG 8024 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.151 DEBUG 8024 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.152 DEBUG 8024 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.152 DEBUG 8024 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.152 DEBUG 8024 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.154 DEBUG 8024 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.158 DEBUG 8024 --- [http-nio-8887-exec-10] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.158 DEBUG 8024 --- [http-nio-8887-exec-10] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.159 DEBUG 8024 --- [http-nio-8887-exec-10] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.161 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.162 DEBUG 8024 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.162 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.162 DEBUG 8024 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.163 DEBUG 8024 --- [http-nio-8887-exec-3] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.162 DEBUG 8024 --- [http-nio-8887-exec-1] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.167 DEBUG 8024 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.167 DEBUG 8024 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.168 DEBUG 8024 --- [http-nio-8887-exec-7] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.171 DEBUG 8024 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.171 DEBUG 8024 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.172 DEBUG 8024 --- [http-nio-8887-exec-6] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.225 DEBUG 8024 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.226 DEBUG 8024 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.226 DEBUG 8024 --- [http-nio-8887-exec-2] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.242 DEBUG 8024 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.242 DEBUG 8024 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.242 DEBUG 8024 --- [http-nio-8887-exec-9] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
+2020-02-10 12:10:50.277 DEBUG 8024 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : ==>  Preparing: select id, account_id, avatar_url, name, token, gmt_create, gmt_modified from tuser WHERE ( token = ? ) 
+2020-02-10 12:10:50.277 DEBUG 8024 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : ==> Parameters: 2d46590a-11f4-406e-86c4-86cf4dcba318(String)
+2020-02-10 12:10:50.278 DEBUG 8024 --- [http-nio-8887-exec-5] l.s.c.m.m.TuserMapper.selectByExample    : <==      Total: 0
