@@ -100,6 +100,12 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
+            <id>dev</id>
+            <properties>
+                <db.url>jdbc:mysql://127.0.0.1:3306/my-community</db.url>
+                <db.user>sa</db.user>
+                <db.password>123</db.password>
+            </properties>
         </profile>
     </profiles>
 -->
